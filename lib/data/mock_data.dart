@@ -218,7 +218,7 @@ const dummyMeals = [
     ],
     isGlutenFree: true,
     isVegan: false,
-    isVegetarian: true,
+    isVegetarian: false,
     isLactoseFree: true,
   ),
   Meal(
@@ -365,7 +365,7 @@ const dummyMeals = [
       'Stop mixing after the egg white disappears. Divide mixture between 2 prepared ramekins. Place ramekins on prepared baking sheet.',
       'Bake in preheated oven until scuffles are puffed and have risen above the top of the rims, 12 to 15 minutes.',
     ],
-    isGlutenFree: true,
+    isGlutenFree: false,
     isVegan: false,
     isVegetarian: true,
     isLactoseFree: false,
