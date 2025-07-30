@@ -30,7 +30,6 @@ class MealsScreen extends StatelessWidget {
       itemBuilder: (ctx, index) => MealItem(
         meal: meals[index],
         onSelectMeal: selectMeal,
-        onToggleFavorite: onToggleFavorite,
       ),
     );
 
